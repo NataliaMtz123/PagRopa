@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaquetas - Estilo Único</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f9f9f9; }
+        header, footer { background-color: #2c3e50; color: white; text-align: center; padding: 20px; }
+        nav { background-color: #34495e; display: flex; justify-content: center; gap: 20px; padding: 10px 0; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        h2 { text-align: center; margin-top: 30px; }
+        .productos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; padding: 40px; max-width: 1200px; margin: auto; }
+        .producto { background: white; padding: 15px; border-radius: 10px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        .producto img { max-width: 100%; border-radius: 8px; }
+        .precio { color: #27ae60; font-weight: bold; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estilo Único</h1>
+        <p>Catálogo de Chaquetas</p>
+    </header>
+    <nav>
+        <a href="camisas.html">Camisas</a>
+        <a href="pantalones.html">Pantalones</a>
+        <a href="chaquetas.html">Chaquetas</a>
+    </nav>
+    <h2>Nuestras Chaquetas</h2>
+    <section class="productos">
+        <div class="producto">
+            <img src="img/Chaqueta de Cuero.jpg" alt="Chaqueta de cuero">
+            <h3>Chaqueta de Cuero</h3>
+            <p class="precio">$89.99</p>
+        </div>
+        <div class="producto">
+            <img src="img/Chaqueta Jeans.webp" alt="Chaqueta jeans">
+            <h3>Chaqueta Jeans</h3>
+            <p class="precio">$59.99</p>
+        </div>
+        <div class="producto">
+            <img src="img/Chaqueta de Invierno.jpg" alt="Chaqueta de invierno">
+            <h3>Chaqueta de Invierno</h3>
+            <p class="precio">$99.99</p>
+        </div>
+        <div class="producto">
+            <img src="img/Blazer Moderno.jpg" alt="Blazer moderno">
+            <h3>Blazer Moderno</h3>
+            <p class="precio">$74.99</p>
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 Estilo Único. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
